@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound1"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound2"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound3"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound4"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound5"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound6"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound7"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound8"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound9"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound10"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound11"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="playsound12"/>
+
+    </LinearLayout>
+
+</LinearLayout>
